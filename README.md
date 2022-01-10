@@ -4,7 +4,9 @@
 
 For this project I will be investigating Heart Rate Variable (HRV)
 
-According to research the higher the variability in heart rate the better health a person should be in. In this project we will be looking a variables that can effect a persons HRV and using the numpy.random package to model this data. The variables include lifestyle factors, biological factors and exercise. 
+HRV is influenced by the autonomic nervous system, according to research the higher the variability in heart rate the better health a person should be in
+At rest, parasympathetic activity is predominant, which results in lowered HR and increased HRV, HRV analysis captures information not present in average HR alone highlighting an important difference at the physiological level. 
+In this project we will be looking a variables that can effect a persons HRV and using the numpy.random package to model this data. The variables include lifestyle factors, biological factors and exercise. 
 
 
 ![ECG-cycle-no-ibi](https://user-images.githubusercontent.com/77789044/148706827-7f3e7793-1878-4ca0-baa9-d713fe79cf30.png)
@@ -25,6 +27,8 @@ data folder
 
 
 ### **Required Packages**
+
+requests
 
 
 
@@ -60,3 +64,19 @@ python
 jupyter-lab
 ```
 This will open a browser window where the notebooks can be accessed
+
+
+# Conculsion
+
+HRV is increasingly being used in wearable technology and is a way for people to monitor their health and may encourage people to implement measures for a healthier lifestyle. HRV may also have a future role in medical settings and can be used alongside traditional vital signs when predicting mortality. However more research and data is needed into this area to improve knowledege and predicatbility of variables on HRV. 
+
+# Acknowledgements
+
+Data used in this project -
+
+Rossi, A., Da Pozzo, E., Menicagli, D., Tremolanti, C., Priami, C., Sirbu, A., Clifton, D., Martini, C., & Morelli, D. (2020). Multilevel Monitoring of Activity and Sleep in Healthy People (version 1.0.0). PhysioNet. https://doi.org/10.13026/cerq-fc86.
+
+
+A markdown cheatsheet used to write the README
+
+https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
